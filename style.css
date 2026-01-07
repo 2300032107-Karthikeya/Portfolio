@@ -162,3 +162,7 @@ nav a.active {
     font-size: 0.95rem;
     margin-bottom: 0.3rem;
 }
+
+#certifications li {
+  margin-bottom: 0.6rem;
+}
