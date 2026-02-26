@@ -42,6 +42,7 @@ h2 {
 
 h3 {
   font-size: 1.1rem;
+  margin-bottom: 0.4rem;
 }
 
 .projects-container article {
@@ -60,7 +61,7 @@ h3 {
 
 #projects article {
   background-color: #ffffff;
-  padding: 1.5rem;
+  padding: 1.2rem;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -165,4 +166,23 @@ nav a.active {
 
 #certifications li {
   margin-bottom: 0.6rem;
+}
+
+.cert-link {
+  margin-top: 0.4rem;
+}
+
+.cert-link a {
+  display: inline-block;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #222;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: #222;
+}
+
+.cert-link a:hover {
+  background: #222;
+  color: #fff;
 }
